@@ -1,0 +1,73 @@
+/* Here goes your CSS */
+body {
+  background-color: #EFFFFF;
+  /*font-family: 'Love Ya Like A Sister', cursive;*/
+  font-family: 'Raleway', sans-serif;
+  color: #777;
+  font-size: 18px;
+}
+
+#profil {
+  width: 250px;
+  border-radius: 60%;
+}
+
+.country {
+  width: 480px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #aadeea;
+}
+
+.card {
+  background: white;
+  border: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #a5dacf;
+  content: 10px;
+  padding: 15px;
+  margin: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  /*font-family: 'Baloo', cursive;*/
+  font-family: 'Indie Flower', cursive;
+  color: #8783D1;
+  font-size: 22px;
+  line-height: 10px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AAA;
+}
+
+.container {
+  width: 60%;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
