@@ -1,4 +1,4 @@
-/* Here goes your CSS */
+
 body {
   background-color: #EFFFFF;
   /*font-family: 'Love Ya Like A Sister', cursive;*/
@@ -41,6 +41,10 @@ h1, h2, h3 {
   line-height: 10px;
 }
 
+h1 {
+  margin: 35px;
+}
+
 h4 {
   font-weight: normal;
 }
@@ -55,7 +59,7 @@ a:hover {
 }
 
 .container {
-  width: 60%;   /* Set width */
+  width: 85%;   /* Set width */
   margin: 0 auto; /* Automatically set left/right margins */
 }
 
@@ -70,4 +74,57 @@ ul {
 
 .list-inline {
   padding-left: 0px;
+}
+
+#page-content {
+  background-color: #EFEFFF;
+  border-radius: 15px;
+  padding: 1px;
+  margin: 2px;
+  display: inline-block;
+  width: 100%;
+}
+
+/*#summary {
+  width: 15%;
+}*/
+
+/*#favorite-countries {
+  width: 75%;
+}*/
+
+#sidebar {
+  position: fixed;
+  width: 220px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+
+#liste-sidebar {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 10px;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#sidebar a:hover {
+  color: #AAA;
+}
+
+#sidebar li {
+  margin-top : 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+#page-content {
+  margin-left: 200px;
 }
